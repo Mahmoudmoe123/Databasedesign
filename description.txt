@@ -1,0 +1,5 @@
+For the migration to v2, consider the following changes:
+
+Update the playlists table to allow users to create multiple playlists, by adding a name column for the playlist.
+Create an account_types table to store account type information, and add a foreign key account_type_id to the users table.
+Update constraints and relationships in the existing tables, if necessary, to accommodate the new requirements.
